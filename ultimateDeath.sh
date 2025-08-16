@@ -3,7 +3,7 @@ wget -q -O /tmp/song.mp3 "https://github.com/JamesFisher24/rick/raw/refs/heads/m
 volumeUp() {
     while true; do
         osascript -e 'set volume output volume 100'
-        sleep .5
+        sleep .25
     done
 }
 
