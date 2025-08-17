@@ -9,6 +9,8 @@ volumeUp() {
 
 volumeUp&
 
+afplay /tmp/song.mp3
+sleep 30
 while true; do
     afplay /tmp/song.mp3
 done
